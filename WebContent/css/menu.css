@@ -68,6 +68,13 @@ div {
 
 #footer {
 	width: 800px;
+	height: 35px;
 	background: #7bc4ff;
 	color: white
 }
+.iframe {
+	border: none;
+	
+}
+
+

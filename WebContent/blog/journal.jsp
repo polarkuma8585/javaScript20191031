@@ -5,13 +5,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../css/menu.css"> 
 </head>
 <body>
 	<div align="center">
-	<div id="footer">
-		<hr>
-		작성자 : ㅇㅇㅇ 2019-10-31 작성.
-	</div>
+	<h3>BLOG 일기 창 입니다.</h3>
 	</div>
 </body>
 </html>

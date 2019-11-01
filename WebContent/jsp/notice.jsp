@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,7 +47,10 @@
 		</div>
 		<div>
 			<br />
+			<!--<c:if test="${!empty name}" />  <!-- name 값이 없으면 버튼 사라짐 -->
+			<c:if test="${grant == s}">
 			<button type="button" onclick="location.href='n_write.jsp'">글쓰기</button>
+			</c:if>
 		</div>
 		<div id="footer"><%@include file="footer.jsp" %></div>
 	</div>
