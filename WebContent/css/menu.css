@@ -1,49 +1,107 @@
 @charset "UTF-8";
-
-.ul {
-	width: 800px;
-	height: 30px;
+.menu_div {
+	/*background-image: linear-gradient(to right, #E7F4FF, #229CFF);*/
+	text-align:center;
 	background: #7BC4FF;
+	height: 30px;
+	
+}
+.menu_div ul {
+	margin-top: -2px;
+	display: inline-block;
 	list-style: none;
 	padding: 5px
 }
 
-.li {
+.menu_div ul li {
 	float: left;
-	margin-right: 10px;
-	position: relative;
-	left: +30%
+	margin-left:1px;
 }
-
+.menu_div ul li:hover{
+	background:#3fa8fe;
+	border-radius: 5px;
+}
 .a {
-	font-size: 12px;
+	font-size: 15px;
 	color: white;
-	text-decoration: none
+	text-decoration: none;
+	text-align: center;
+  	padding: 14px 16px;
+  	
 }
 
-.bul{
-	background:#7BC4FF;
-	width:100px;
-	height:700px
-}
-.li1{
-	
+
+
+
+.jul {
+	float: right;
 	list-style: none;
-	margin-bottom: 10px;
-	position: relative;
-	left: -20%
+	/*background-image: linear-gradient(to top, #E7F4FF, #7BC4FF);*/
+	background: #7BC4FF;
+	width: 80px;
+	height: 670px;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+	
 }
-.a1 {
+.jul li{
+	padding: 5px;
+	transition: 0.3s;
+}
+
+.jul li:hover{
+	padding: 10px;
+	background:#3fa8fe;
+	border-radius: 5px;
+	
+}
+.jul li a{
 	text-decoration: none;
 	color: white;
-	
 }
+.bul {
+	list-style: none;
+	background-image: linear-gradient(to top, #E7F4FF, #7BC4FF);	
+	background: #7BC4FF;
+	width: 100px;
+	height: 690px;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;	
+}
+.bul li {
+	padding: 5px;
+	/* margin-bottom: 5px; */
+	transition: 0.5;
+}
+.bul li:hover{
+	padding: 10px;
+	background: #3fa8fe;
+	border-radius: 5px;
+}
+.bul li a{
+	text-decoration: none;
+	color: white;
+}
+.a1 {
+	/*display:block;*/
+	text-decoration: none;
+	color: white;
+}
+
+.a3 {
+	text-decoration: none;
+	color: black;
+}
+
 h1, h2, h3 {
 	color: #5AABED
 }
 
 table {
-	border-collapse: collapse; 
+	
+	border-collapse: collapse;
 	border-top: 3px solid #5AABED;
 	border-bottom: 2px solid #5AABED
 }
@@ -54,27 +112,50 @@ th {
 }
 
 td {
-	
 	border-bottom: 1px solid #5AABED;
 }
 
-tr:hover {
-	background: #C3E5FF
-}
-
-div {
-	background: #F0F8FE
-}
-
-#footer {
-	width: 800px;
-	height: 35px;
-	background: #7bc4ff;
-	color: white
-}
-.iframe {
-	border: none;
+.tr:hover {
+	background: #C3E5FF;
 	
 }
 
+.jtd {
+	background:#C3E5FF
+}
+div {
+	background: #F0F8FE;
+}
+.contents_size{
+	
+	background: #F0F8FE;
+	height: auto;
+	min-height: 800px;
+}
+#footer {
+	
+	height: 50px;
+	background: #7bc4ff;
+	color: white
+}
 
+.iframe {
+	border: none;
+}
+
+.button {
+	font-size: 12px;
+	padding: 5px 15px;
+	background: #7bc4ff;
+	color: white;
+	opacity: 0.7;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	cursor:pointer;
+}
+.button:hover{
+	opacity: 1;
+}

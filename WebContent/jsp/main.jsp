@@ -9,9 +9,10 @@
 <body>
 	<div align="center">
 		<div id="topmenu"><%@ include file="topMenu.jsp" %></div>
-		<div id="contents">
+		<div id="contents" class="contents_size">
 			<h1>여기는 웹 사이트의 처음 페이지 입니다.</h1>
 			<h1>당신의 방문을 환영합니다.</h1>
+			
 		</div>
 		<div id="footer"><%@ include file="footer.jsp" %></div>
     </div>

@@ -14,6 +14,7 @@
 <body>
 	<div align="center">
 		<div><jsp:include page="topMenu.jsp" /></div>
+		<div class="contents_size">
 		<div><h3>DB에서 가져온 데이터</h3></div>
 		<%!Connection conn; // DBMS와 연결을 유지하는 객체
 	PreparedStatement pstmt; // sql문을 실행하는 객체
@@ -45,9 +46,9 @@
 					int age = rs.getInt("studentage");
 					String tel = rs.getString("studenttel");
 
-					out.println("<tr align=center><td width=100>" + id + "</td><td width=100>" + name
+					out.println("<tr class=tr align=center><td width=100>" + id + "</td><td width=100>" + name
 							+ "</td><td width=300>" + addr + "</td><td width=50>" + age + "</td><td width=200>" + tel
-							+ "</td><tr>");
+							+ "</td></tr>");
 					//out.println("<tr><th>아이디</th><td>"+ id + "</td></tr>");
 					//out.println("<tr><th>이름</th><td>" + name + "</td></tr>");
 					//out.println("<tr><th>주소</th><td>" + addr + "</td></tr>");
@@ -65,6 +66,7 @@
 				conn.close();
 			}
 		%>
+		</div>
 		<div><jsp:include page="footer.jsp" /></div>
 	</div>
 </body>

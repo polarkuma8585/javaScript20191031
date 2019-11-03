@@ -11,7 +11,7 @@
 <body>
 	  
 	<div align="center">
-		<div id="menubar">
+		<div class="menu_div" id="menubar">
 			<ul class="ul">
 				<li class="li"><a class="a" href="main.jsp">홈</a></li>
 				<li class="li"><a class="a" href="request.jsp">요청객체</a></li>

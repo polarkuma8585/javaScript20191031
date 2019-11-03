@@ -33,7 +33,8 @@
 					<th>지역</th>
 					<td><%=request.getParameter("city") %></td>
 				</tr>
-			</table>
+			</table><br />
+		<div><button class="button" type="button" onclick="location.href='request.jsp'">이전으로</button></div>
 		</div>
 		<div id="footer"><%@ include file="footer.jsp" %></div>
 	</div>

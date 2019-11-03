@@ -7,11 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div align="center">
-	<div id="footer">
-		<hr>
-		copyrights : polarkuma 2019.31.Oct
-	</div>
-	</div>
+	<h3>blog test 입니다.</h3>
 </body>
 </html>
